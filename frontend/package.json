@@ -1,0 +1,36 @@
+{
+  "name": "youtube-dislike-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "test": "npx jest",
+    "style": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "0.0.158",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "copy-webpack-plugin": "^9.1.0",
+    "glob": "^7.1.6",
+    "jest": "^27.2.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2 ",
+    "ts-jest": "^27.0.5",
+    "ts-loader": "^8.0.0",
+    "typescript": "^4.4.3 ",
+    "webextension-polyfill": "^0.8.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-merge": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/webextension-polyfill": "^0.8.2"
+  }
+}

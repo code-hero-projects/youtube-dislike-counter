@@ -1,0 +1,1 @@
+export const YouTubeDislikeCounterApiUrl = 'http://localhost:5192/api/video/';
